@@ -1,19 +1,29 @@
 header{
     background-color: black;
-    color:azure
+    color:azure;
 
 
 }
 main{
     background-color: silver;
+    flex-grow:1;
 }
 footer{
     background-color: black;
     color: azure;
+    
 }
 #box{
     background-color: blue;
 }
 button{
     background-color: pink;
+}
+html,body{
+    height:100%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+
 }
